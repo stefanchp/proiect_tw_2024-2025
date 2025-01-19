@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title>Cabinet de Avocat</title>
+    <meta charset="utf-8">
+    <meta name="autor" content="Stefan">
+    <meta name="keywords" content="???">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <link rel="icon" href="./balance.png" type="image/x-icon">
+    <script src="index.js" defer></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header id="header">
+        <div class="left">
+            <a href="#login" class="nav-buttons">
+                <i class="fa-regular fa-user user"> &nbsp;&nbsp; </i>
+            </a>
+            <a href="#main_page" class="nav-buttons"> Avocat - Chiper Costel </a>
+        </div>
+        <div class="right">
+            <!-- format pentru big screen-->
+            <nav class="sections">
+                <a href="#specializare" class="nav-buttons-blue nav-buttons"> Specializare </a>
+                <a href="#servicii" class="nav-buttons-blue nav-buttons"> Servicii</a>
+            </nav>
+            <nav class="contact">
+                <a href="#contact" class="nav-buttons"> Contact </a>
+            </nav>
+            <!-- format pentru medium and small screen -->
+            <div class="dropdown" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#b0804e" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+                <div class="content-menu">
+                    <a href="#specializare" class="nav-buttons-blue nav-buttons">Specializare</a>
+                    <a href="#servicii" class="nav-buttons-blue nav-buttons">Servicii</a>
+                    <a href="#contact" class="nav-buttons contact"> Contact </a>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <section class="container" id="container">
+        <section class="slide" id="main_page">
+            <div class="main">
+                <div class="cards">
+                    <pre
+                        id="text1"> Bun-venit pe pagina mea oficială! Sunt Costel Chiper, avocat cu experiență în domeniul juridic, dedicat să ofer soluții eficiente și personalizate pentru clienții mei. Cu o experiență de peste 25 de ani în practică juridică, am asistat și reprezentat cu succes persoane fizice și companii în diverse arii ale dreptului. Cred cu tărie în valori precum integritatea,   profesionalismul și confidențialitatea,   care mă ghidează în fiecare caz.</pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="slide" id="specializare">
+            <div class="specializare">
+                <h2>Specializarea mea</h2>
+                <ul>
+                    <li>Am absolvit Facultatea de Drept din cadrul Universității „Alexandru Ioan Cuza” din Iași, una dintre cele mai prestigioase instituții academice din România, unde am dobândit o solidă pregătire teoretică și practică în domeniul dreptului. Pe parcursul studiilor, am aprofundat cunoștințele în diverse ramuri ale dreptului, consolidându-mi astfel expertiza juridică.</li>
+                    <li>Pentru a-mi lărgi perspectivele profesionale, am urmat și un <strong>master în drept internațional</strong>, care mi-a permis să înțeleg mai bine complexitatea relațiilor internaționale și a reglementărilor transnaționale. Acest program mi-a oferit instrumentele necesare pentru a aborda cu succes cazuri ce implică aspecte internaționale sau dreptul comparat.</li>
+                    <li>De asemenea, sunt <strong>membru al Baroului din Vaslui din anul 1997</strong>, ceea ce îmi conferă o experiență de peste 25 de ani în activitatea juridică. De-a lungul carierei, am reprezentat și consiliat cu succes clienți din diverse domenii, fie că vorbim despre persoane fizice, fie despre companii. Profesionalismul și dedicarea față de fiecare caz m-au consacrat ca un avocat respectat, cu o abordare responsabilă și eficientă în fața instanței.</li>
+                    <li>În fiecare caz pe care îl gestionez, mă ghidhez după principii de etică, transparență și confidențialitate, punând pe primul loc interesele și drepturile clienților mei.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="slide" id="servicii">
+            <div class="servicii">
+                <h2>Arii de expertiză</h2>
+                <p>Indiferent de natura problemei tale juridice, mă poți contacta pentru a primi suport juridic adaptat nevoilor tale. Cu o experiență vastă în domeniul dreptului, îți voi oferi soluții clare și eficient implementabile în următoarele arii de expertiză:</p>
+                <ul>
+                    <li><strong>Drept civil</strong> – Îți ofer asistență completă în soluționarea litigiilor de proprietate, partaj de bunuri sau încheierea și executarea contractelor. Indiferent dacă ai nevoie de ajutor pentru protejarea drepturilor tale în fața autorităților sau pentru a rezolva conflictele cu terți, sunt aici să îți ofer soluții legale sigure și eficiente.</li>
+                    <li><strong>Drept comercial</strong> – Ofer consultanță și reprezentare juridică pentru înființarea și administrarea firmelor, redactarea și negocierea contractelor comerciale și rezolvarea litigiilor comerciale. Fie că ești antreprenor sau manager, îți ofer soluții pentru a naviga cu succes în lumea afacerilor și pentru a preveni conflictele juridice.</li>
+                    <li><strong>Dreptul familiei</strong> – În cazul în care te confrunți cu probleme legate de familia ta, cum ar fi divorțuri, partaje de bunuri sau stabilirea custodiei copiilor, îți ofer consiliere juridică și asistență completă pentru a ajunge la cele mai bune soluții, fie amiabile, fie prin instanță. Protejarea drepturilor tale și ale celor dragi este prioritatea mea.</li>
+                    <li><strong>Consultanță juridică</strong> – Dacă ai nevoie de prevenire sau rezolvare a unui conflict juridic, îți ofer consultanță strategică personalizată. Împreună, vom analiza situația ta și vom alege cea mai bună cale pentru a evita litigiile costisitoare și pentru a găsi soluții rapide și eficiente.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="slide" id="contact">
+            <h2>Completează formularul de mai jos și vei fi contactat în cel mai scurt timp posibil</h2>
+            <form action="submit" id="myForm">
+                <div class="inputError">
+                    <input type="text" name="firstName" id="firstName" class = "camp-form" placeholder="Introduceți prenumele" />
+                    <p id="errorFirstName" class="error"></p>
+                </div>
+                <div class="inputError"> 
+                    <input type="text" name="lastName" id="lastName" class = "camp-form" placeholder="Introduceți numele de familie" />
+                    <p id="errorLastName" class="error"></p>
+                </div>
+                <div class="inputError">
+                    <input type="email" name="email" id="email" class = "camp-form" placeholder="Introduceți adresa de e-mail" />
+                    <p id="errorEmail" class="error"></p>
+                </div>
+                <button type="submit" class="button-submit">
+                    Trimite
+                </button>
+            </form>
+        </section>
+        <section class="slide" id="login">
+            <div id="loginSection">
+                <h2 id="loginTitle">Conectează-te</h2>
+
+                <form id="loginForm">
+                    <label for="username">Utilizator:</label>
+                    <input type="text" id="username" required><br><br>
+
+                    <label for="password">Parolă:</label>
+                    <input type="password" id="password" required><br><br>
+
+                    <button type="submit">Login</button>
+                </form>
+                <div id="errorMessage" style="display: none;">
+                    Utilizator sau parolă incorecte!
+                </div>
+                <div id="welcomeMessage" style="display: none;">
+                    <p id="welcomeText"></p>
+                    <button id="logoutButton">Logout</button>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- <footer>
+            <p> &copy; 2024 Cabinet Avocat - Chiper Costel. Toate drepturile sunt rezervate.</p>
+        </footer> -->
+</body>
+
+</html>
